@@ -12,16 +12,27 @@ Parameters supported for
 * G2 and G3: X, Y, Z, F, I, J
 
 # Distance mode
+
 | G-code | Details |
 | --------------|---------|
-| G90 | Absolute mode in current workspace |
-| G91 | Relative mode in current workspace |
+| G90 | Not supported! |
+| G91 | Not supported! |
+
+
+# Feed rate mode
+
+| G-code | Details |
+| --------------|---------|
+| G93 | Absolute mode in current workspace |
+| G94 | Relative mode in current workspace |
 
 
 # Plane Select
+
 * G17, G18, G19 not supported yet
 
 # Workspace
+
 | G-code | Details |
 | --------------|---------|
 | G54 | Select workspace #1 |
@@ -31,4 +42,5 @@ Parameters supported for
 | G58 | Select workspace #5 |
 
 # Measurement selector
+
 Only milimeters is supported for now (G21), inches mode (G20) does not do anything but give an error. Will be added in the future by calculating inches to milimeters
