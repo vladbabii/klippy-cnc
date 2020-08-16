@@ -1,2 +1,3 @@
-# klippy-cnc
-Klippy CNC
+# KCNC - Klipper CNC Macro Package
+
+Work in progress...
