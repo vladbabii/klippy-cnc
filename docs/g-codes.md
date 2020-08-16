@@ -11,6 +11,12 @@ Parameters supported for
 * G0 and G1: X, Y, Z, F
 * G2 and G3: X, Y, Z, F, I, J
 
+# Tool Length Offset
+| G-code | Details |
+| --------------|---------|
+| G43.1 | Not supported! |
+| G49 | Not supported! |
+
 # Distance mode
 
 | G-code | Details |
