@@ -6,13 +6,20 @@
 | G1 | Linear move in current workspace |
 | G2 | Arc move in current workspace |
 | G3 | Arc move in current workspace |
-| G90 | Absolute mode in current workspace |
-| G91 | Relative mode in current workspace |
 
 Parameters supported for
 * G0 and G1: X, Y, Z, F
 * G2 and G3: X, Y, Z, F, I, J
 
+# Distance mode
+| G-code | Details |
+| --------------|---------|
+| G90 | Absolute mode in current workspace |
+| G91 | Relative mode in current workspace |
+
+
+# Plane Select
+* G17, G18, G19 not supported yet
 
 # Workspace
 | G-code | Details |
