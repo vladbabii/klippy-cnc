@@ -19,3 +19,14 @@ M3 and M4 will be mapped to turn an output pin to 1
 M5 will be mapped to turn that same output pin to 0
 
 These will require changes based on your hardware!
+
+
+# Coolant state
+
+| G-code | Details |
+| --------------|---------|
+| M7 | mist coolant on |
+| M8 | flood coolant on |
+| M9 | flood coolant off |
+
+These will be mapped to 2 output pins, but please modify the gcodes to match your configuration
