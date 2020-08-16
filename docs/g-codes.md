@@ -9,6 +9,10 @@
 | G90 | Absolute mode in current workspace |
 | G91 | Relative mode in current workspace |
 
+Parameters supported for
+* G0 and G1: X, Y, Z, F
+* G2 and G3: X, Y, Z, F, I, J
+
 
 # Workspace
 | G-code | Details |
