@@ -6,10 +6,22 @@
 | G1 | Linear move in current workspace |
 | G2 | Arc move in current workspace |
 | G3 | Arc move in current workspace |
+| G28 | Set position - not supported yet |
+| G28.1 | Move to saved position - not supported yet  |
+| G30 | Set position - not supported yet  |
+| G30.1 | Move to saved position  - not supported yet |
+| G53 | Move in absolute coordinates per line  - not supported yet |
 
 Parameters supported for
 * G0 and G1: X, Y, Z, F
 * G2 and G3: X, Y, Z, F, I, J
+
+# Others
+| G-code | Details |
+| --------------|---------|
+| G4 | Dwell a number of seconds |
+
+
 
 # Tool Length Offset
 | G-code | Details |
@@ -46,6 +58,11 @@ Parameters supported for
 | G56 | Select workspace #3 |
 | G57 | Select workspace #4 |
 | G58 | Select workspace #5 |
+| G10 L2 | Set coordinate system - Not supported yet |
+| G10 L20 | Set coordiante system - Not supported yet |
+| G92 | Coordinate system offset - Not supported yet |
+| G92.1 | Coordiante system offset - Not supported yet |
+
 
 # Measurement selector
 
