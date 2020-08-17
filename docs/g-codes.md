@@ -6,9 +6,9 @@
 | G1 | Linear move in current workspace |
 | G2 | Arc move in current workspace |
 | G3 | Arc move in current workspace |
-| G28 | Set position - not supported yet |
+| G28 | Set position |
 | G28.1 | Move to saved position |
-| G30 | Set position - not supported yet  |
+| G30 | Set position  |
 | G30.1 | Move to saved position |
 | G53 | Move in absolute coordinates per line |
 
