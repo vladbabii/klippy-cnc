@@ -36,14 +36,6 @@ Parameters supported for
 | G90 | Relative moves |
 | G91 | Absolute moves |
 
-# All Coordinates Offsets
-
-| G-code | Details |
-| --------------|---------|
-| G92 | Set Coordinate System Offsets |
-| G92.1 | Clear Coordinate System Offsets |
-
-
 # Feed rate mode
 
 | G-code | Details |
@@ -67,8 +59,8 @@ Parameters supported for
 | G58 | Select workspace #5 |
 | G10 L2 | Set coordinate system - Not supported yet |
 | G10 L20 | Set coordiante system - Not supported yet |
-| G92 | Coordinate system offset - Not supported yet |
-| G92.1 | Coordiante system offset - Not supported yet |
+| G92 | Set Coordinate System Offsets |
+| G92.1 | Clear Coordinate System Offsets |
 
 
 # Measurement selector
