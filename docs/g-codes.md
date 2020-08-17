@@ -26,8 +26,8 @@ Parameters supported for
 # Tool Length Offset
 | G-code | Details |
 | --------------|---------|
-| G43.1 | Not supported! |
-| G49 | Not supported! |
+| G43.1 | Set tool offset |
+| G49 | Clear tool offset |
 
 # Distance mode
 
