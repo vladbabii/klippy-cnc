@@ -33,8 +33,8 @@ Parameters supported for
 
 | G-code | Details |
 | --------------|---------|
-| G90 | Not supported! |
-| G91 | Not supported! |
+| G90 | Relative moves |
+| G91 | Absolute moves |
 
 
 # Feed rate mode
