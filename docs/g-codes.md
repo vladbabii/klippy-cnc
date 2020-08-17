@@ -10,7 +10,7 @@
 | G28.1 | Move to saved position - not supported yet  |
 | G30 | Set position - not supported yet  |
 | G30.1 | Move to saved position  - not supported yet |
-| G53 | Move in absolute coordinates per line  - not supported yet |
+| G53 | Move in absolute coordinates per line |
 
 Parameters supported for
 * G0 and G1: X, Y, Z, F
