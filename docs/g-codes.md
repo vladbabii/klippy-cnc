@@ -36,6 +36,13 @@ Parameters supported for
 | G90 | Relative moves |
 | G91 | Absolute moves |
 
+# All Coordinates Offsets
+
+| G-code | Details |
+| --------------|---------|
+| G92 | Set Coordinate System Offsets |
+| G92.1 | Clear Coordinate System Offsets |
+
 
 # Feed rate mode
 
