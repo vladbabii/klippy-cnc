@@ -58,7 +58,7 @@ Parameters supported for
 | G57 | Select workspace #4 |
 | G58 | Select workspace #5 |
 | G10 L2 | Set origin for coordinate system |
-| G10 L20 | Set coordiante system - Not supported yet |
+| G10 L20 | Set coordiante system |
 | G92 | Set Coordinate System Offsets |
 | G92.1 | Clear Coordinate System Offsets |
 
