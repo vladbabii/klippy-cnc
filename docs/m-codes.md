@@ -15,10 +15,10 @@ These will be mapped to pause/resume
 | M4 | start the spindle anti clocwise |
 | M5 | stop spindle |
 
-M3 and M4 will be mapped to turn an output pin to 1
-M5 will be mapped to turn that same output pin to 0
-
-These will require changes based on your hardware!
+Right now, only manual spindle controll is supported but this can be macroed with an output pins
+* M3 and M4 will be mapped to turn an output pin to 1
+* M5 will be mapped to turn that same output pin to 0
+* These will require changes based on your hardware!
 
 
 # Coolant state
@@ -29,4 +29,6 @@ These will require changes based on your hardware!
 | M8 | flood coolant on |
 | M9 | flood coolant off |
 
-These will be mapped to 2 output pins, but please modify the gcodes to match your configuration
+Right now, only manual cooling is supported but this can be macroed with one or two output pins
+* These will be mapped to 2 output pins, but please modify the gcodes to match your configuration
+* These will require changes based on your hardware!
