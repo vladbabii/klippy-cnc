@@ -2,8 +2,8 @@
 
 | G-code | Details |
 | --------------|---------|
-| M0 | Not supported! |
-| M1 | Not supported! |
+| M0 | Program pause |
+| M1 | Program pause |
 
 These will be mapped to pause/resume
 
