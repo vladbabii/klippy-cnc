@@ -1,4 +1,4 @@
-[gcode_macro "$""]
+[gcode_macro $]
 gcode:
   RESPOND PREFIX="info" MSG="KCNC - GRBL $"
 
@@ -6,7 +6,7 @@ gcode:
 gcode:
   RESPOND PREFIX="info" MSG="KCNC - GRBL $$"
 
-[gcode_macro "$G"]
+[gcode_macro $G]
 gcode:
   RESPOND PREFIX="info" MSG="KCNC - GRBL $G"
 
