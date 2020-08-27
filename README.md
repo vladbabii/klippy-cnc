@@ -1,5 +1,9 @@
 # KCNC - Klipper CNC Macro Package
 
+This is a collection of macros to support CNC commands on [klipper 3d printer software](https://github.com/KevinOConnor/klipper)
+
+---
+
 # G/M-code Support
 The codes that are ~~strikethrough~~ are not supported yet
 
@@ -63,6 +67,7 @@ M7 | | Mist coolant on | Note that mist and flood share the same Coolant ON/OFF 
 M8 | | Flood coolant on | Note that mist and flood share the same Coolant ON/OFF pin
 M9 | | All coolant off | Note that mist and flood share the same Coolant ON/OFF pin
 
+---
 
 # Klipper for CNC - PROs and CONs
 
