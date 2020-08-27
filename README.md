@@ -45,8 +45,8 @@ G90 | | Set absolute mode |
 G91 | | Set incremental mode |
 G92 | _axes_ | Set origin offsets |
 G92.1 | | Reset origin offsets |
-~~G92.2~~ | | Suspend origin offsets |
-~~G92.3~~ | | Resume origin offsets |
+G92.2 | | Suspend origin offsets |
+G92.3 | | Resume origin offsets |
 
 ## Supported M-codes
  Mcode | Parameter |Command | Description
