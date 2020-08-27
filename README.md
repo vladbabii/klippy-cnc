@@ -63,6 +63,9 @@ M7 | | Mist coolant on | Note that mist and flood share the same Coolant ON/OFF 
 M8 | | Flood coolant on | Note that mist and flood share the same Coolant ON/OFF pin
 M9 | | All coolant off | Note that mist and flood share the same Coolant ON/OFF pin
 
+
+# Klipper for CNC - PROs and CONs
+
 Klipper benefits for hobby CNC
 * easy install and configuration changes
 * [tmc driver support](https://github.com/KevinOConnor/klipper/blob/57eb0e8975f0fc038dbf323f5ff029073334c611/config/example-extras.cfg#L962) with [endstop phase](https://github.com/KevinOConnor/klipper/blob/57eb0e8975f0fc038dbf323f5ff029073334c611/docs/Endstop_Phase.md)
