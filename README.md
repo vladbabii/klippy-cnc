@@ -1,5 +1,16 @@
 # KCNC - Klipper CNC Macro Package
 
+# G/M-code Support
+The codes that are ~~strikethrough~~ are not supported yet
+
+## KCNC Macros
+Gcode | Parameters | Description
+------|------------|---------
+KCNC_STATUS | - | Get KCNC Status (workspace, tools, etc)
+KCNC_SET_WORKSPACE | TARGET=0 | Set workspace, 0 is machine workspace, 1 is equivalent to G54 
+KCNC_HOME_MACHINE | - | Homes the machine using endstops
+
+
 ## Supported G-codes
 Gcode | Parameters | Command | Description
 ------|------------|---------|-------------
