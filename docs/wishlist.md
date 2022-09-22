@@ -6,6 +6,8 @@ G61.1		Set exact stop mode	Motion will stop between each Gcode block
 
 G64		Continuous path mode	Same as exact path mode
 
+G68  Rotate coordinate system (about Z-axis, mainly)
+
 G80		Cancel motion mode
 
 G92.2		Suspend origin offsets	
