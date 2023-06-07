@@ -2,6 +2,26 @@
 
 This is a collection of macros to support CNC commands on [klipper 3d printer software](https://github.com/KevinOConnor/klipper)
 
+## Installation
+Either clone or copy this repository in parallel to your Klipper installation
+
+```
+cd
+git clone https://github.com/RREE/klippy-cnc.git
+```
+
+Locate your main Klipper configuration file `printer.cfg`. If you use
+kiauh it will probably be in
+`/home/pi/printer_data/config/printer.cfg`. Open it with your
+preferred text editor. Alternatively you can also use Mainsail in the
+menu entry `MASCHINE` there is a widget `Config Files` and you can
+edit `printer.cfg` in your browser.
+
+Add the following line:
+```
+[include ../../klippy-cnc/klippy-cnc-macros.cfg]
+```
+
 ---
 
 # G/M-code Support
